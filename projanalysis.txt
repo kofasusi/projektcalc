@@ -1,0 +1,28 @@
+Funkcjonalności:
+Wejście użytkownika: Użytkownik podaje czas w formie: godziny, minuty, sekundy.
+Konwersje:
+Przeliczenie podanego czasu na sekundy.
+Przeliczenie podanego czasu na minuty.
+Przeliczenie podanego czasu na godziny.
+Walidacja: Sprawdzenie, czy dane wejściowe są liczbowe i dodatnie.
+Prezentacja wyników: Wyświetlanie wyników w przejrzystym formacie.
+Wymagania niefunkcjonalne:
+Czytelność kodu: Strukturyzacja kodu przy użyciu funkcji oraz programowania obiektowego.
+Modularność: Podział na moduły (np. główny moduł, moduł kalkulatora, moduł walidacji, moduł testowy).
+Rozszerzalność: Możliwość dodania kolejnych funkcji (np. konwersji na dni, tygodnie itp.) bez gruntownej przebudowy kodu.
+Wykorzystane elementy Pythona:
+Podstawy Python: Zmienne, operatory, instrukcje warunkowe, pętle.
+Środowiska programistyczne: Projekt można tworzyć i debugować w PyCharm, VS Code lub innym ulubionym IDE.
+Struktury danych:
+Listy: Przechowywanie wyników konwersji lub zbioru operacji.
+Krotki (tuple): Przechowywanie niezmiennych wartości.
+Słowniki: Mapowanie jednostek na ich przeliczniki (np. {'godzina': 3600, 'minuta': 60}).
+Zbiory: Jeśli potrzebna jest operacja na unikalnych wartościach.
+Programowanie obiektowe:
+Klasy: Klasa TimeCalculator do centralizacji logiki przeliczania.
+Metaklasy: Możliwość zastosowania do automatycznego rejestrowania nowych jednostek lub walidacji klas (przykładowo, gdyby projekt rozwijał się o kolejne typy konwersji).
+Wyszukiwanie atrybutów: Dynamiczne sprawdzanie i pobieranie atrybutów obiektów.
+Deskryptory: Do kontroli dostępu do atrybutów klasy (np. automatyczna walidacja podawanych danych).
+Dekoratory:
+Do logowania wywołań metod, co może pomóc w debugowaniu.
+Do mierzenia czasu wykonania funkcji przeliczających.

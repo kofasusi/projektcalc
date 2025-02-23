@@ -1,4 +1,4 @@
-1. Opis projektu
+Opis projektu
 Cel:
 Stworzenie aplikacji w języku Python, która umożliwia konwersję czasu podanego przez użytkownika (w godzinach, minutach i sekundach) na inne jednostki, np. na sekundy, minuty lub godziny.
 
