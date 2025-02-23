@@ -13,3 +13,17 @@ Oczekiwane rezultaty:
 Działająca aplikacja, która poprawnie przelicza czas z jednej jednostki na inną.
 Czytelny i modularny kod, umożliwiający łatwe rozszerzenie o nowe funkcjonalności.
 Dokumentacja i raport z testów potwierdzający poprawność działania.
+
+
+Słowo końcowe: aby przetestować wystarczy użyć komendy python -m unittest test_timecalculator.py
+Wynik testu: 
+Wywołanie: to_hours z argumentami () {}
+Wywołanie: to_seconds z argumentami () {}
+Wynik: 7200
+Wynik: 2.0
+.Wywołanie: to_minutes z argumentami () {}
+Wywołanie: to_seconds z argumentami () {}
+Wynik: 3600
+Wynik: 60.0
+.Wywołanie: to_seconds z argumentami () {}
+Wynik: 3661
