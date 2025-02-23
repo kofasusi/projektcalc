@@ -27,3 +27,7 @@ Wynik: 3600
 Wynik: 60.0
 .Wywołanie: to_seconds z argumentami () {}
 Wynik: 3661
+
+https://github.com/kofasusi/projektcalc
+
+(to ja) (version control bardzo nagły bo kopiowałem z komputera)
